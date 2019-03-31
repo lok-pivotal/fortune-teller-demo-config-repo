@@ -8,3 +8,8 @@ logging:
 fortune:
   fallbackFortune: Your future is unclear...
 
+hystrix:
+  command:
+    default:
+      circuitBreaker:
+        requestVolumeThreshold: 2
