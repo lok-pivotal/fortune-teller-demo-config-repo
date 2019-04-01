@@ -6,7 +6,7 @@ logging:
           samples: INFO
 
 fortune:
-  fallbackFortune: Your future is unclear...
+  fallbackFortune: Your future is very cloudy...
 
 hystrix:
   command:
